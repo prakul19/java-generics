@@ -10,6 +10,6 @@ public class Groceries extends WarehouseItem {
 
     @Override
     public void displayInfo() {
-        System.out.println("Grocery: " + getName() + " | Expiry: " + expirationDate + " | Price: $" + getPrice());
+        System.out.println("Grocery: " + getName() + " | Expiry: " + expirationDate + " | Price: " + getPrice());
     }
 }

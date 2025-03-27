@@ -10,6 +10,6 @@ public class Electronics extends WarehouseItem {
 
     @Override
     public void displayInfo() {
-        System.out.println("Electronics: " + getName() + " | Brand: " + brand + " | Price: $" + getPrice());
+        System.out.println("Electronics: " + getName() + " | Brand: " + brand + " | Price: " + getPrice());
     }
 }

@@ -10,6 +10,6 @@ public class Furniture extends WarehouseItem {
 
     @Override
     public void displayInfo() {
-        System.out.println("Furniture: " + getName() + " | Material: " + material + " | Price: $" + getPrice());
+        System.out.println("Furniture: " + getName() + " | Material: " + material + " | Price: " + getPrice());
     }
 }
