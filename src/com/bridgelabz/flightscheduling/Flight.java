@@ -13,6 +13,8 @@ public class Flight<T> {
 
     public T getFlightNumber() {
         return flightNumber;
+    }
+
     public void displayFlightInfo() {
         System.out.println("Flight: " + flightNumber + " | From: " + departure + " | To: " + destination);
     }
