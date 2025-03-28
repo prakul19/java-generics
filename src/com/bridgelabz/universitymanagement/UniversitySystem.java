@@ -4,8 +4,8 @@ public class UniversitySystem {
     public static void main(String[] args) {
         // Creating Courses
         ExamCourse examCourse = new ExamCourse("Mathematics", "Dr. Sharma", 70);
-        AssignmentCourse assignmentCourse = new AssignmentCourse("Data Structures", "Prof. Verma", 5);
-        ResearchCourse researchCourse = new ResearchCourse("Artificial Intelligence", "Dr. Rao", "Machine Learning Models");
+        AssignmentCourse assignmentCourse = new AssignmentCourse("Data Structures", "Prof. Agarwal", 5);
+        ResearchCourse researchCourse = new ResearchCourse("Artificial Intelligence", "Dr. Rathee", "Data structure and algorithms");
 
         // Wrapping them in generic Course class
         Course<ExamCourse> course1 = new Course<>(examCourse);
